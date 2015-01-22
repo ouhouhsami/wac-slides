@@ -5,7 +5,7 @@ title:
 
 # The architecture
 
-![](/assets/img/architecture.png)
+![](/assets/architecture.png)
 
 _ //graph here_
 
