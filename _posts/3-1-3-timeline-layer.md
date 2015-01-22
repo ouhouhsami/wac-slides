@@ -1,0 +1,39 @@
+---
+layout: slide
+title: 
+---
+
+<section markdown="1">
+# Timeline
+
+* ensures time axis consitency
+* orchestrates layers
+	* vertical layout
+  * zooming
+  * time-scale
+* centralises events
+  * event delegation
+  * components broadcasting
+
+<aside class="notes" markdown="1">
+</aside>
+
+</section>
+
+<section markdown="1">
+# Layer
+
+* centralises all common layer logic
+  * initialisation
+  * scales
+  * events
+  * selecting
+  * editing
+  * zoom
+* components inherits from it and overrides when needed
+* components implement their own drag/edit/upate/draw strategies
+
+<aside class="notes" markdown="1">
+</aside>
+
+</section>
