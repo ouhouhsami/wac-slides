@@ -3,7 +3,7 @@ var timeline = require('timeline');
 var segment = require('segment');
 var d3 = timeline.d3;
 
-var w = 900;
+var w = 940;
 var h = 140;
 var xDomain = [0, 400];
 

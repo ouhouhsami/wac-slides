@@ -40,7 +40,7 @@ var cursorColor = red;
 "use strict";
 
 var file = '/assets/snd/track05.wav';
-var graphWidth = 860;
+var graphWidth = 950;
 
 var segmentData = [
   {
@@ -98,7 +98,7 @@ var app = {
     var anchor = new marker()
       .params({ displayHandle: false })
       .color(anchorColor)
-      .opacity(0.9);
+      .opacity(0);
 
     // 4. create some segments
     // ----------------------------------------

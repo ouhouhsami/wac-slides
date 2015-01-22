@@ -3,7 +3,7 @@ var timeline = require('timeline');
 var label = require('label');
 var d3 = timeline.d3;
 
-var w = 900;
+var w = 940;
 var h = 60;
 var xDomain = [0, 90];
 var bgColors = ['#ff7373', '#6c8dd5', '#cdf93e'];

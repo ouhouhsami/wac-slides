@@ -1,28 +1,137 @@
 ---
 layout: slide
-title: 
+title:
 ---
 
 <section markdown="1">
 
-<style>
-img { border: none !important; width: 80%; }
-</style>
-## The components 
+## The components
 
-![](/assets/img/layers.png)
+<img src="/assets/img/layers.png" class="wac-img-components">
 
 _...so far..._
 
 </section>
 
 <section markdown="1">
-### Breakpoint
+### Segment
 
-<iframe src="/wac-simple-breakpoint.html" width="950" height="200"></iframe>
+<div class="wac-demo reset" id="wac-simple-segment"></div>
+<script src="/assets/js/wac-simple-segment.js" type="text/javascript"></script>
+
+~~~js
+var data = [
+  { start: 100, duration: 400, color: '#de456f' },
+  // ...
+];
+
+// 1. create the timeline
+var graph = timeline()
+  .width(900)
+  .height(140)
+  .xDomain([0, 1000]);
+
+// 2. create the layer
+var segmentLayer = segment()
+  .params({
+    interactions: { editable: true },
+    opacity: 0.6,
+    handlerOpacity: 0.8
+  })
+  .data(data);
+
+// 3. add the layer to the timeline
+graph.add(segmentLayer);
+// 4. draw the graph
+d3.select('#timeline').call(graph.draw);
+~~~
+</section>
+
+
+<section markdown="1">
+### Waveform
+
+<div class="wac-demo reset" id="wac-simple-waveform"></div>
+<script src="/assets/js/wac-simple-waveform.js" type="text/javascript"></script>
 
 ~~~
-var 'bla'.bli()
+// 1. create the timeline
+var graph = timeline()
+  .width(w)
+  .height(h)
+  .xDomain([0, buffer.duration]);
+
+// 2. create the waveform layer
+var waveformLayer = waveform()
+  .data(buffer.getChannelData(0).buffer)
+  .sampleRate(buffer.sampleRate)
+  .duration(buffer.duration);
+
+// 3. add the layer to the graph
+graph.add(waveformLayer);
+// 4. draw the graph
+d3.select('#wac-simple-waveform').call(graph.draw);
+~~~
+</section>
+
+
+<section markdown="1">
+### Marker
+
+<div class="wac-demo reset" id="wac-simple-marker"></div>
+<script src="/assets/js/wac-simple-marker.js" type="text/javascript"></script>
+
+~~~js
+var data = [
+  { x: 100 },
+  // ...
+];
+
+// 1. create the timeline
+var graph = timeline() // config skipped
+
+// 2.1 create the editable markers layer
+var markerLayer = marker()
+  .params({ interactions: { editable: true } })
+  .data(data)
+
+// 2.2 create the cursor layer
+var cursorLayer = marker()
+  .params({ displayHandle: false })
+
+// 3. add the layers to the timeline
+graph.add(markerLayer);
+graph.add(cursorLayer);
+// 4. draw the graph
+d3.select('#timeline').call(graph.draw);
+~~~
+</section>
+
+
+<section markdown="1">
+### Breakpoint
+
+<div class="wac-demo reset" id="wac-simple-breakpoint"></div>
+<script src="/assets/js/wac-simple-breakpoint.js" type="text/javascript"></script>
+
+~~~js
+var data = [
+  { cx: 100, cy: 0.5, r: 5 },
+  // ...
+];
+
+// 1. create the timeline
+var graph = timeline() // config skipped
+
+// 2. create the layer
+var breakpointLayer = breakpoint()
+  .data(data)
+  .color('steelblue');
+
+// 3. add the layer to the timeline
+graph.add(breakpointLayer);
+// 4. draw the graph
+d3.select('#timeline').call(graph.draw);
 ~~~
 </section>
 
@@ -30,51 +139,38 @@ var 'bla'.bli()
 <section markdown="1">
 ### Label
 
-<iframe src="/wac-simple-label.html" width="950" height="200"></iframe>
+<div class="wac-demo reset" id="wac-simple-label"></div>
+<script src="/assets/js/wac-simple-label.js" type="text/javascript"></script>
 
-~~~
-var 'bla'.bli()
-~~~
-</section>
+~~~js
+var data = [
+  { x: 100, width: 100, text:'my label', align: 'center' },
+  // ...
+];
 
-<section markdown="1">
-### Marker
+// 1. create the timeline
+var graph = timeline() // config skipped
 
-<iframe src="/wac-simple-marker.html" width="950" height="200"></iframe>
+// 2. create the layer
+var labelLayer = label()
+  .data(data)
+  .bgColor('transparent');
 
-~~~
-var 'bla'.bli()
-~~~
-</section>
-
-
-<section markdown="1">
-### Segment
-
-<iframe src="/wac-simple-segment.html" width="950" height="200"></iframe>
-
-~~~
-var 'bla'.bli()
+// 3. add the layer to the timeline
+graph.add(labelLayer);
+// 4. draw the graph
+d3.select('#timeline').call(graph.draw);
 ~~~
 </section>
 
-<section markdown="1">
-### Waveform
-
-<iframe src="/wac-simple-waveform.html" width="950" height="200"></iframe>
-
-~~~
-var 'bla'.bli()
-~~~
-</section>
 
 <aside class="notes" markdown="1">
 
 
-* Waveform
 * Segment
-* Breakpoint
+* Waveform
 * Marker
-* Label 
+* Breakpoint
+* Label
 
 </aside>

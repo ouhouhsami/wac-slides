@@ -14,7 +14,7 @@ for (var i = 0; i < 12; i++) {
   var datum = {};
   datum.cx = Math.random() * 100;
   datum.cy = Math.random();
-  datum.r = Math.ceil(Math.random() * 10) + 2;
+  datum.r = 5;
   data.push(datum);
 }
 

@@ -3,7 +3,7 @@ var timeline = require('timeline');
 var marker = require('marker');
 var d3 = timeline.d3;
 
-var w = 900;
+var w = 940;
 var h = 140;
 var duration = 10;
 var xDomain = [0, duration];
