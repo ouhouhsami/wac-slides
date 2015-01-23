@@ -19,7 +19,7 @@ _...so far..._
 <div class="wac-demo reset" id="wac-simple-segment"></div>
 <script src="/assets/js/wac-simple-segment.js" type="text/javascript"></script>
 
-~~~js
+{% highlight js %}
 var data = [
   { start: 100, duration: 400, color: '#de456f' },
   // ...
@@ -44,7 +44,8 @@ var segmentLayer = segment()
 graph.add(segmentLayer);
 // 4. draw the graph
 d3.select('#timeline').call(graph.draw);
-~~~
+
+{% endhighlight %}
 </section>
 
 
@@ -54,7 +55,7 @@ d3.select('#timeline').call(graph.draw);
 <div class="wac-demo reset" id="wac-simple-waveform"></div>
 <script src="/assets/js/wac-simple-waveform.js" type="text/javascript"></script>
 
-~~~
+{% highlight js %}
 // 1. create the timeline
 var graph = timeline()
   .width(w)
@@ -71,7 +72,7 @@ var waveformLayer = waveform()
 graph.add(waveformLayer);
 // 4. draw the graph
 d3.select('#wac-simple-waveform').call(graph.draw);
-~~~
+{% endhighlight %}
 </section>
 
 
@@ -81,7 +82,7 @@ d3.select('#wac-simple-waveform').call(graph.draw);
 <div class="wac-demo reset" id="wac-simple-marker"></div>
 <script src="/assets/js/wac-simple-marker.js" type="text/javascript"></script>
 
-~~~js
+{% highlight js %}
 var data = [
   { x: 100 },
   // ...
@@ -104,7 +105,7 @@ graph.add(markerLayer);
 graph.add(cursorLayer);
 // 4. draw the graph
 d3.select('#timeline').call(graph.draw);
-~~~
+{% endhighlight %}
 </section>
 
 
@@ -114,7 +115,7 @@ d3.select('#timeline').call(graph.draw);
 <div class="wac-demo reset" id="wac-simple-breakpoint"></div>
 <script src="/assets/js/wac-simple-breakpoint.js" type="text/javascript"></script>
 
-~~~js
+{% highlight js %}
 var data = [
   { cx: 100, cy: 0.5, r: 5 },
   // ...
@@ -132,7 +133,7 @@ var breakpointLayer = breakpoint()
 graph.add(breakpointLayer);
 // 4. draw the graph
 d3.select('#timeline').call(graph.draw);
-~~~
+{% endhighlight %}
 </section>
 
 
@@ -142,7 +143,7 @@ d3.select('#timeline').call(graph.draw);
 <div class="wac-demo reset" id="wac-simple-label"></div>
 <script src="/assets/js/wac-simple-label.js" type="text/javascript"></script>
 
-~~~js
+{% highlight js %}
 var data = [
   { x: 100, width: 100, text:'my label', align: 'center' },
   // ...
@@ -160,7 +161,7 @@ var labelLayer = label()
 graph.add(labelLayer);
 // 4. draw the graph
 d3.select('#timeline').call(graph.draw);
-~~~
+{% endhighlight %}
 </section>
 
 

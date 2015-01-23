@@ -26,3 +26,8 @@ html .wac-demo {
   padding: 20px;
   border-radius: 3px;
 }
+
+.reveal div.highlight {
+  margin: 0;
+  padding: 0;
+}

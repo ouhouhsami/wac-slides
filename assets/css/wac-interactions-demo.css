@@ -13,7 +13,7 @@
   width: 62px;
   height: 62px;
   margin: 5px 20px 20px 0;
-  background: #343434;
+  background: #ffffff url('/assets/img/chaton.gif') top left no-repeat;
   background-size: cover;
 }
 /* line 17, ../sass/style.scss */

@@ -42,6 +42,9 @@ var segmentLayer = segment()
     opacity: 0.4,
     handlerOpacity: 0.6
   })
+  .each(function(d) {
+    this.setAttribute('id', 'sg' + d.id);
+  })
   .data(data)
   .dataKey(function(d, i) { return d.id; });
 
@@ -80,6 +83,9 @@ var breakpointLayer = breakpoint()
   .cy(function(d, v) {
     if (!v) { return d.opacity; }
     d.opacity = +v;
+  })
+  .each(function(d) {
+    this.setAttribute('id', 'bp' + d.id);
   })
   .opacity(1)
   .r(6);
