@@ -54,8 +54,8 @@
                 <path d="M3.71111111,67.2256323 L16.0814815,96.8726911" id="Line-3" stroke="#313CA3" stroke-linecap="square"></path>
             </g>
         </g>
-        <text id="ARCHITECTURE" sketch:type="MSTextLayer" font-family="PT Sans" font-size="14" font-weight="normal" fill="#000000">
-            <tspan x="184" y="21">ARCHITECTURE</tspan>
+        <text id="ARCHITECTURE" sketch:type="MSTextLayer" font-family="PT Sans" font-size="14" font-weight="normal" fill="#002B36">
+            <tspan x="150" y="21">ARCHITECTURE</tspan>
         </text>
     </g>
 </svg>

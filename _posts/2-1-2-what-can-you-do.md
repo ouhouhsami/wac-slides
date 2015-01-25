@@ -25,21 +25,3 @@ title:
 </div>
 
 <script src="/assets/js/wac-waveform.js"></script>
-
-
-<aside class="notes" markdown="1">
-## Visualisation
-
-* waveform
-* segments
-* labels
-* cursor
-
-## interactions:
-
-* zooming in/out
-* editing segments
-* play/pause
-* audio stretching (clin d'oeuil à waves.audio)
-
-</aside>

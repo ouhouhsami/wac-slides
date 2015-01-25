@@ -213,7 +213,16 @@ window.breakpointTimeline = breakpointGraph;
 window.segmentLayer = segmentLayer;
 window.breakpointLayer = breakpointLayer;
 
+window.updateTimelines = function() {
+  breakpointTimeline.update();
+  segmentTimeline.update();
+}
 
+window.clear = function() {
+  data.length = 2;
+  window.updateTimelines();
+  console.clear();
+}
 // {
 //   id: 1000,
 //   start: Math.random() * 70,

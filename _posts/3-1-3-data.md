@@ -5,10 +5,11 @@ title:
 
 ### Data uniformity issues
 
-* Data structure/format
+* Data structure / format
 * Editing shared data
 
-### Small helper/solution
+<div markdown="1" class="fragment">
+### Small helper / solution
 
 {% highlight js %}
 var data = [
@@ -32,3 +33,4 @@ var segmentLayer = segment()
 // 3. add the layer to the timeline
 // 4. draw the graph
 {% endhighlight %}
+</div>

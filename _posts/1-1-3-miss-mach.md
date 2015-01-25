@@ -6,47 +6,33 @@ title:
 ## HTML5 arrival
 
 <div markdown="1" class="fragment">
-### New media APIs
-</div>
-<div markdown="1" class="fragment">
+#### New media APIs
+
 * HTMLMediaElement(s)
-</div>
-<div markdown="1" class="fragment">
-* Web Audipo API
-</div>
-<div markdown="1" class="fragment">
-* MediaStream / GetuserMedia
-</div>
-<div markdown="1" class="fragment">
+* Web Audio API
+* MediaStream / getUserMedia
 * WebRTC
 </div>
 
 
 <div markdown="1" class="fragment">
-### new input types/UI elements
-</div>
-<div markdown="1" class="fragment">
+#### New input types / UI elements
+
 * color 
-</div>
-<div markdown="1" class="fragment">
 * range
-</div>
-<div markdown="1" class="fragment">
 * number
 </div>
 <div markdown="1" class="fragment">
-* but…
+#### But...
 </div>
 <div markdown="1" class="fragment">
 * waveform?
-</div>
-<div markdown="1" class="fragment">
 * timelines
 </div>
 
 
 <aside class="notes" markdown="1">
-### HTML5 arrival
+#### HTML5 arrival
 
 * new media APIs
 	* HTMLMediaElement(s)

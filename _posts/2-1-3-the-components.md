@@ -70,7 +70,7 @@ var waveformLayer = waveform()
 // 3. add the layer to the graph
 graph.add(waveformLayer);
 // 4. draw the graph
-d3.select('#wac-simple-waveform').call(graph.draw);
+d3.select('#timeline').call(graph.draw);
 {% endhighlight %}
 </section>
 
