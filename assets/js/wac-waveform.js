@@ -98,7 +98,7 @@ var app = {
     var anchor = new marker()
       .params({ displayHandle: false })
       .color(anchorColor)
-      .opacity(0);
+      .opacity(0.8);
 
     // 4. create some segments
     // ----------------------------------------

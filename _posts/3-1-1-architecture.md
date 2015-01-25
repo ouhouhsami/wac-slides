@@ -3,11 +3,7 @@ layout: slide
 title: 
 ---
 
-# The architecture
-
-![](/assets/img/architecture.png)
-
-_ //graph here_
+<img src="/assets/img/archi.svg" class="fullscreen-img">
 
 <aside class="notes" markdown="1">
 </aside>

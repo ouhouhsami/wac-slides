@@ -35,6 +35,7 @@ var cursor = marker()
   .params({
     displayHandle: false
   })
+  .width(2)
   .color('red');
 
 graph.add(markerLayer);

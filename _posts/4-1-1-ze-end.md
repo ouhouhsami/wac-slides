@@ -3,27 +3,17 @@ layout: slide
 title: 
 ---
 
-# Ze end
+## Current status β
 
-## Current status
-
-* most components are usable
-* tests missing
-* doc on github 
+* (components) ready to be used
+* lib on github (not packaged yet)  
+[/ircam-rnd/waves](https://github.com/ircam-rnd/waves)
+* doc on github  
+[ircam-rnd.github.io/waves](https://ircam-rnd.github.io/waves/)
 
 
 ## Contributing
 
 * written in es6™
 * CommonJS™ modules
-
-
-## links
-
-* Find us on github:  
-[/ircam-rnd/waves](https://github.com/ircam-rnd/waves)
-* Docs also there (gh-pages):  
-[ircam-rnd.github.io/waves](https://ircam-rnd.github.io/waves/)
-
-<aside class="notes" markdown="1">
-</aside>
+* Browserified

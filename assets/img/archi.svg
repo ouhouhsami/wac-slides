@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="403px" height="238px" viewBox="0 0 403 238" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>archi</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <rect id="Rectangle-10" fill="#FFFFFF" sketch:type="MSShapeGroup" x="-30.5" y="-2.40311913" width="444.525926" height="262.806238"></rect>
+        <g id="Group" sketch:type="MSLayerGroup" transform="translate(37.000000, 43.000000)">
+            <rect id="Rectangle-44" stroke="#979797" stroke-dasharray="2,2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="36.0074074" y="0.352941176" width="94.8395062" height="171.294118" rx="4"></rect>
+            <g id="Rectangle-38-+-timeLine" transform="translate(0.545679, 68.705882)">
+                <rect id="Rectangle-38" stroke="#303BA3" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="70.0987654" height="34.5882353" rx="4"></rect>
+                <text id="Timeline" sketch:type="MSTextLayer" font-family="PT Sans" font-size="11.0526316" font-weight="normal" fill="#000000">
+                    <tspan x="12.3703704" y="19.8823529">Timeline</tspan>
+                </text>
+            </g>
+            <text id="zoom" fill="#303BA3" sketch:type="MSTextLayer" font-family="PT Sans" font-size="6.54545455" font-weight="normal" line-spacing="10">
+                <tspan x="77.2419753" y="79.6470588">zoom</tspan>
+                <tspan x="77.2419753" y="90.6470588">select</tspan>
+                <tspan x="77.2419753" y="101.647059">scales</tspan>
+                <tspan x="77.2419753" y="112.647059">…</tspan>
+            </text>
+            <rect id="Rectangle-38-copy" stroke="#4990E2" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="121.002469" y="25.8823529" width="136.898765" height="32.9411765" rx="4"></rect>
+            <rect id="Rectangle-38-copy" stroke="#4990E2" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="121.002469" y="69.5294118" width="136.898765" height="32.9411765" rx="4"></rect>
+            <rect id="Rectangle-38-copy" stroke="#4990E2" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="121.002469" y="114" width="136.898765" height="32.9411765" rx="4"></rect>
+            <rect id="Rectangle-38-copy-2" fill="#FFFFFF" sketch:type="MSShapeGroup" x="221.346972" y="34.1176471" width="92.5814227" height="18.1176471"></rect>
+            <text id="Layer/Component" sketch:type="MSTextLayer" font-family="PT Sans" font-size="9.6" font-weight="normal" fill="#000000">
+                <tspan x="127.548148" y="45.5882353">Layer/Component</tspan>
+            </text>
+            <text id="offset-/-scale-/-dra" fill="#4990E2" sketch:type="MSTextLayer" font-family="PT Sans" font-size="8" font-weight="normal">
+                <tspan x="220.738272" y="45.2352941">offset / scale / draw …</tspan>
+            </text>
+            <rect id="Rectangle-38-copy-3" fill="#FFFFFF" sketch:type="MSShapeGroup" x="219.088889" y="76.9411765" width="92.5814227" height="16.4705882"></rect>
+            <rect id="Rectangle-38-copy-5" fill="#FFFFFF" sketch:type="MSShapeGroup" x="219.088889" y="121.941176" width="92.5814227" height="16.4705882"></rect>
+            <rect id="Rectangle-38-copy-4" fill="#FFFFFF" sketch:type="MSShapeGroup" x="224.037037" y="122.235294" width="25.5654321" height="18.1176471"></rect>
+            <text id="Layer/Component" sketch:type="MSTextLayer" font-family="PT Sans" font-size="9.6" font-weight="normal" fill="#000000">
+                <tspan x="127.548148" y="89.2352941">Layer/Component</tspan>
+            </text>
+            <text id="offset-/-scale-/-dra" fill="#4990E2" sketch:type="MSTextLayer" font-family="PT Sans" font-size="7.69230769" font-weight="normal">
+                <tspan x="220.738272" y="88.0588235" fill="#4A90E2">offset / scale / draw …</tspan>
+            </text>
+            <text id="Layer/Component" sketch:type="MSTextLayer" font-family="PT Sans" font-size="9.6" font-weight="normal" fill="#000000">
+                <tspan x="127.548148" y="133.705882">Layer/Component</tspan>
+            </text>
+            <text id="offset-/-scale-/-dra" fill="#4990E2" sketch:type="MSTextLayer" font-family="PT Sans" font-size="7.69230769" font-weight="normal">
+                <tspan x="220.738272" y="134.176471" fill="#4A90E2">offset / scale / draw …</tspan>
+            </text>
+            <g id="arrows" transform="translate(96.209877, 37.303779)" sketch:type="MSShapeGroup">
+                <path d="M0.412345679,35.1079852 L16.0814815,4.63739701 L0.412345679,35.1079852 Z" id="Line" stroke="#313CA3" stroke-linecap="square"></path>
+                <path d="M18.4161776,0.00423657779 L17.9203876,6.10795642 L13.9000391,4.43315848" id="Triangle-1" fill="#313CA3"></path>
+                <path d="M19.3636052,48.2844558 L13.2024581,50.3432794 L13.2024581,46.2256323" id="Triangle-2" fill="#313CA3"></path>
+                <path d="M17.5987605,100.505852 L13.0826219,96.0769297 L17.1029705,94.4021317" id="Triangle-3" fill="#313CA3"></path>
+                <path d="M4.53580247,48.2844558 L16.0814815,48.2844558" id="Line-2" stroke="#313CA3" stroke-linecap="square"></path>
+                <path d="M3.71111111,67.2256323 L16.0814815,96.8726911" id="Line-3" stroke="#313CA3" stroke-linecap="square"></path>
+            </g>
+        </g>
+        <text id="ARCHITECTURE" sketch:type="MSTextLayer" font-family="PT Sans" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="184" y="21">ARCHITECTURE</tspan>
+        </text>
+    </g>
+</svg>

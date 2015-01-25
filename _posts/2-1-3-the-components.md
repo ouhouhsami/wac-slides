@@ -3,11 +3,10 @@ layout: slide
 title:
 ---
 
-<section markdown="1">
+<section markdown="1" class="contrast">
+<h2 class="contrast">The components</h2>
 
-## The components
-
-<img src="/assets/img/layers.png" class="wac-img-components">
+<img src="/assets/img/layers.png" class="fullscreen-img" >
 
 _...so far..._
 

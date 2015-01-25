@@ -7,13 +7,14 @@ title:
 # Timeline
 
 * ensures time axis consitency
+* centralises events
+  * event delegation
+  * event broadcasting
+  * compnents consuming
 * orchestrates layers
 	* vertical layout
   * zooming
   * time-scale
-* centralises events
-  * event delegation
-  * components broadcasting
 
 <aside class="notes" markdown="1">
 </aside>
