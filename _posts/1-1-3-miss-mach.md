@@ -35,10 +35,13 @@ title:
 * number
 </div>
 <div markdown="1" class="fragment">
+* but…
+</div>
+<div markdown="1" class="fragment">
 * waveform?
 </div>
 <div markdown="1" class="fragment">
-* timelines?
+* timelines
 </div>
 
 

@@ -27,6 +27,16 @@ var data = [
   }
 ];
 
+window.makeData = function(){
+  return {
+    id: new Date().getTime(),
+    start: Math.random() * 70,
+    duration: Math.random() * 20 + 5,
+    color: 'rgb('+ Math.ceil(Math.random() * 255) +', '+ Math.ceil(Math.random() * 255) +', '+ Math.ceil(Math.random() * 255) +')',
+    opacity: Math.random() * 0.8 + 0.2
+  };
+};
+
 // create segment graph
 // ------------------------------------------------
 var segmentContainer = d3.select('#wac-interactions-segments');
@@ -55,7 +65,7 @@ segmentLayer.handleSelection = function(item, e) {
   }
 
   if (item) { this.select(item); }
-}
+};
 
 segmentGraph.add(segmentLayer);
 segmentContainer.call(segmentGraph.draw);
