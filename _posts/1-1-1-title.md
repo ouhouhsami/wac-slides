@@ -5,11 +5,11 @@ title:
 
 ## Audio UI components
 
-![](/assets/img/benjamin.jpg){:.face}  
+![](./assets/img/benjamin.jpg){:.face}  
 <span class="small">Benjamin Matuszewski</span>  
 <em>github</em><span class="small">@b-ma</span>
 
-![](/assets/img/victor.jpg){:.face}  
+![](./assets/img/victor.jpg){:.face}  
 <span class="small">Victor Saiz</span>  
 <em>github</em><span class="small">@vectorsize</span>
 

@@ -6,7 +6,7 @@ title:
 <section markdown="1" class="contrast">
 <h2 class="contrast">The components</h2>
 
-<img src="/assets/img/layers.png" class="fullscreen-img" >
+<img src="./assets/img/layers.png" class="fullscreen-img" >
 
 _...so far..._
 
@@ -16,7 +16,7 @@ _...so far..._
 ### Segment
 
 <div class="wac-demo reset" id="wac-simple-segment"></div>
-<script src="/assets/js/wac-simple-segment.js" type="text/javascript"></script>
+<script src="./assets/js/wac-simple-segment.js" type="text/javascript"></script>
 
 {% highlight js %}
 var data = [
@@ -52,7 +52,7 @@ d3.select('#timeline').call(graph.draw);
 ### Waveform
 
 <div class="wac-demo reset" id="wac-simple-waveform"></div>
-<script src="/assets/js/wac-simple-waveform.js" type="text/javascript"></script>
+<script src="./assets/js/wac-simple-waveform.js" type="text/javascript"></script>
 
 {% highlight js %}
 // 1. create the timeline
@@ -79,7 +79,7 @@ d3.select('#timeline').call(graph.draw);
 ### Marker
 
 <div class="wac-demo reset" id="wac-simple-marker"></div>
-<script src="/assets/js/wac-simple-marker.js" type="text/javascript"></script>
+<script src="./assets/js/wac-simple-marker.js" type="text/javascript"></script>
 
 {% highlight js %}
 var data = [
@@ -112,7 +112,7 @@ d3.select('#timeline').call(graph.draw);
 ### Breakpoint
 
 <div class="wac-demo reset" id="wac-simple-breakpoint"></div>
-<script src="/assets/js/wac-simple-breakpoint.js" type="text/javascript"></script>
+<script src="./assets/js/wac-simple-breakpoint.js" type="text/javascript"></script>
 
 {% highlight js %}
 var data = [
@@ -140,7 +140,7 @@ d3.select('#timeline').call(graph.draw);
 ### Label
 
 <div class="wac-demo reset" id="wac-simple-label"></div>
-<script src="/assets/js/wac-simple-label.js" type="text/javascript"></script>
+<script src="./assets/js/wac-simple-label.js" type="text/javascript"></script>
 
 {% highlight js %}
 var data = [

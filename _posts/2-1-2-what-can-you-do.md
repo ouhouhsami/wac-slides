@@ -5,7 +5,7 @@ title:
 
 ## What can you do with it
 
-<link rel="stylesheet" type="text/css" href="/assets/css/wac-waveform.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/wac-waveform.css">
 
 <div class="demo-container reset" id="wac-waveform">
   <div class="controls-container">
@@ -24,4 +24,4 @@ title:
   <div id="wac-demo-waveform"></div>
 </div>
 
-<script src="/assets/js/wac-waveform.js"></script>
+<script src="./assets/js/wac-waveform.js"></script>

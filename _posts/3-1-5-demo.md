@@ -3,7 +3,7 @@ layout: slide
 title:
 ---
 
-<link rel="stylesheet" type="text/css" href="/assets/css/wac-interactions-demo.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/wac-interactions-demo.css">
 
 <div class="reset" id="wac-interactions-demo">
   <div class="avatar"></div>
@@ -42,7 +42,7 @@ title:
   </div>
 </div>
 
-<script src="/assets/js/wac-interactions-demo.js"></script>
+<script src="./assets/js/wac-interactions-demo.js"></script>
 
 <aside class="notes" markdown="1">
 * DOM interaction
