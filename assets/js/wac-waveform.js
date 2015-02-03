@@ -39,7 +39,7 @@ var cursorColor = red;
 
 "use strict";
 
-var file = '/assets/snd/track05.wav';
+var file = baseurl+'/assets/snd/track05.wav';
 var graphWidth = 950;
 
 var segmentData = [

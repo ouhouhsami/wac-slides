@@ -7,7 +7,8 @@ var d3 = timeline.d3;
 var w = 940;
 var h = 140;
 var xDomain = [0, 400];
-var file = '/assets/snd/demo.wav';
+console.log(baseurl)
+var file = baseurl+'/assets/snd/demo.wav';
 
 var bufferLoader = new loaders.AudioBufferLoader();
 
