@@ -1,6 +1,6 @@
 <script src="/reveal.js/lib/js/head.min.js"></script>
 <script src="/reveal.js/js/reveal.min.js"></script>
-
+<script>var baseurl = "{{site.baseurl}}";</script>
 <!-- reveal.js init -->
 <script>
   // Full list of configuration options available here:
@@ -28,10 +28,10 @@
       // Remote control your reveal.js presentation using a touch device
       //{ src: '/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } },
       // Syntax highlight for <code> elements
-      { src: '/assets/js/fullscreen-img.js' },
+      { src: baseurl+'/assets/js/fullscreen-img.js' },
 
       // MathJax
-      { src: '/reveal.js/plugin/math/math.js', async: true }
+      { src: baseurl+'/reveal.js/plugin/math/math.js', async: true }
     ]
   });
 </script>
