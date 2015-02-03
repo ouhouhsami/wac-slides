@@ -1,3 +1,6 @@
+baseurl: "/wac-slides" # the subpath of your site, e.g. /blog/
+url: "ircam.github.io" # the base hostname & protocol for your site
+
 timezone:    Europe/Berlin
 future:      false
 # The allowed values are 'rouge', 'pygments' or null.
