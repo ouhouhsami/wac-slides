@@ -16,13 +16,13 @@
     // Optional libraries used to extend on reveal.js
     dependencies: [
       // Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
-      { src: '/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: baseurl+'/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
 
       // Zoom in and out with Alt+click
-      { src: '/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: baseurl+'/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
 
       // Speaker notes
-      { src: '/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: baseurl+'/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
 
       // Remote control your reveal.js presentation using a touch device
       //{ src: '/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } },
