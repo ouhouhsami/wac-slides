@@ -7,9 +7,9 @@ title:
 
 * (components) ready to be used
 * lib on github (not packaged yet)  
-[/ircam-rnd/waves](https://github.com/ircam-rnd/waves)
+[/wavesjs/waves](https://github.com/wavesjs/waves)
 * doc on github  
-[ircam-rnd.github.io/waves](https://ircam-rnd.github.io/waves/)
+[wavesjs.github.io](http://wavesjs.github.io/)
 
 
 ## Contributing
