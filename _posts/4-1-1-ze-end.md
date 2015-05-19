@@ -6,7 +6,7 @@ title:
 ## Current status β
 
 * (components) ready to be used
-* lib on github (not packaged yet)  
+* lib on github
 [/wavesjs/waves](https://github.com/wavesjs/waves)
 * doc on github  
 [wavesjs.github.io](http://wavesjs.github.io/)
